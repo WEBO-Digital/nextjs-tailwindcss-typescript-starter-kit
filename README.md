@@ -5,9 +5,10 @@
 <br />
 
 <div>
-  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=flat-square&color=5e17eb&labelColor=000000" alt="PRs welcome!" />
+  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=flat-square&color=cd2122&labelColor=000000" alt="PRs welcome!" />
 
-  <img alt="License" src="https://img.shields.io/github/license/WEBO-Digital/nextjs-tailwindcss-typescript-starter-kit?style=flat-square&color=5e17eb&labelColor=000000">
+  <img alt="License" src="https://img.shields.io/github/license/WEBO-Digital/nextjs-tailwindcss-typescript-starter-kit?style=flat-square&color=cd2122&labelColor=000000">
+ 
 </div>
 
 <br />
