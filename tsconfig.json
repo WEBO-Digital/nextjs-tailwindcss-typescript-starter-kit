@@ -16,17 +16,18 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@components/*": ["./components/*"],
-      "@module/*": ["./components/module/*"]
+      "@/*": ["./src/*"]
     }
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
+    "**/*.js",
+    "**/*.jsx",
     "next-seo.config.js",
     "tailwind.config.js",
     "src/components/module"
   ],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", ".next"]
 }

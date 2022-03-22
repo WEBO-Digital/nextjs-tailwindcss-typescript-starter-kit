@@ -1,5 +1,5 @@
 import React, { FunctionComponent, useMemo } from 'react';
-import { appendQueryString, siteUrl } from 'utils/helper';
+import { appendQueryString, siteUrl } from '@/utils/helper';
 
 interface Props {
   href: string;

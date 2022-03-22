@@ -2,12 +2,11 @@ import { useEffect, useState } from 'react';
 import type { AppProps } from 'next/app';
 import { DefaultSeo } from 'next-seo';
 import SEO from '../next-seo.config';
-import { AppLayout } from '@components/layouts/AppLayout';
+import { AppLayout } from '@/components/layouts/AppLayout';
 import { useRouter } from 'next/router';
 
 // Styles
-import '../assets/sass/style.scss';
-import '../assets/sass/tailwind.scss';
+import '../src/assets/sass/style.scss';
 
 function MyApp({ Component, pageProps }: AppProps) {
   const { events: routerEvents } = useRouter();

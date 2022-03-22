@@ -1,6 +1,6 @@
 import { FunctionComponent, HTMLAttributes } from 'react';
-import Footer from '@module/footer/Footer';
-import Header from '@module/header/Header';
+import Footer from '@/components/module/footer/Footer';
+import Header from '@/components/module/header/Header';
 
 type Props = {
   className?: HTMLAttributes<HTMLDivElement>['className'];
